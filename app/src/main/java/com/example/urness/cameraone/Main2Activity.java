@@ -1,5 +1,5 @@
 /*author: T. Urness
-    *this activity is responsible for viwing the image saved by the camera
+    *this activity is responsible for viewing the image saved by the camera
  */
 
 package com.example.urness.cameraone;
