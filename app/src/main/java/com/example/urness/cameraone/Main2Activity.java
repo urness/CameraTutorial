@@ -30,7 +30,7 @@ public class Main2Activity extends AppCompatActivity {
         try {
             Bitmap b = BitmapFactory.decodeStream(new FileInputStream(file));
             //the image taken in portrat mode needs to be rotated 90 degrees
-            Bitmap b2 = RotateBitmap(b,90);
+            Bitmap b2 = RotateBitmap(b,-90);
             ImageView img=(ImageView)findViewById(R.id.imageView1);
             img.setImageBitmap(b2);
         }
